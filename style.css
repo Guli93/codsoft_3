@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+  
+}
+/* .container{
+    background-image: url("bg.png");
+    background-position: fixed;
+    background-repeat: no-repeat;
+} */
+.calBody{
+    margin: 30px 0;
+    background-color: #fff;
+    padding: 70px 13px 13px 13px;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    
+}
+input{
+    margin-bottom: 40px;
+    padding: 3px 6px;
+    text-align: right;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    float: right;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 4px;
+    
+
+    
+}
+button{
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: .3s;
+
+}
+button:hover{
+background-color: black;
+color: rgb(2, 97, 180);
+box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.btn1{
+    border-radius: 20px;
+    padding: 2px 12px;
+    text-align: center;
+    margin: 7px 3px;
+    color: rgb(29, 110, 217);
+    border-color: transparent;
+}
+.btn{
+    width: 40px;
+    padding: 8px;
+    text-align: center;
+    margin: 4px;
+    background-color: rgb(176, 175, 175);
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    border: none;
+    color: white;
+    z-index: 9999;
+    font-size: 17px;
+    size: 25px;
+}
+.clr{
+    background-color: rgb(2, 97, 180);
+}
+.light-clr{
+    background-color: rgb(46, 146, 234);
+    
+}
+.rectBtn{
+    padding: 7px 45px;
+}
+.flex{
+    display: flex;
+    margin-left: 6px;
+    
+}
+.bigBtn{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4px;
+
+}
+.bigBtn button{
+    padding: 22px 14px;
+}
